@@ -1,0 +1,173 @@
+2021-07-30 08:23:46.234 -03:00 [INF] Application is starting
+2021-07-30 08:23:46.620 -03:00 [INF] Now listening on: https://localhost:5001
+2021-07-30 08:23:46.623 -03:00 [INF] Now listening on: http://localhost:5000
+2021-07-30 08:23:46.623 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-30 08:23:46.623 -03:00 [INF] Hosting environment: Development
+2021-07-30 08:23:46.623 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-07-30 08:23:52.955 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:23:53.026 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 77.4996ms
+2021-07-30 08:23:53.741 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:23:53.742 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 1.3191ms
+2021-07-30 08:23:54.331 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:23:54.333 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 1.6565ms
+2021-07-30 08:23:55.691 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:23:55.692 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 0.7423ms
+2021-07-30 08:23:56.307 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:23:56.308 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 0.8906ms
+2021-07-30 08:28:49.022 -03:00 [INF] Application is shutting down...
+2021-07-30 08:30:07.503 -03:00 [INF] Application is starting
+2021-07-30 08:30:07.914 -03:00 [INF] Now listening on: https://localhost:5001
+2021-07-30 08:30:07.917 -03:00 [INF] Now listening on: http://localhost:5000
+2021-07-30 08:30:07.917 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-30 08:30:07.917 -03:00 [INF] Hosting environment: Development
+2021-07-30 08:30:07.917 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-07-30 08:30:13.042 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:30:13.101 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 62.4772ms
+2021-07-30 08:30:15.729 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:30:15.731 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 1.3983ms
+2021-07-30 08:30:15.778 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon.ico - -
+2021-07-30 08:30:15.780 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon.ico - - - 0 - - 2.1189ms
+2021-07-30 08:30:18.997 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:30:18.998 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 0.7330ms
+2021-07-30 08:30:19.507 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:30:19.508 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 404 0 - 0.7238ms
+2021-07-30 08:34:51.644 -03:00 [INF] Application is shutting down...
+2021-07-30 08:34:55.640 -03:00 [INF] Application is starting
+2021-07-30 08:34:56.065 -03:00 [INF] Now listening on: https://localhost:5001
+2021-07-30 08:34:56.068 -03:00 [INF] Now listening on: http://localhost:5000
+2021-07-30 08:34:56.068 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-30 08:34:56.068 -03:00 [INF] Hosting environment: Development
+2021-07-30 08:34:56.068 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-07-30 08:35:00.068 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/ - -
+2021-07-30 08:35:00.113 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/ - - - 301 0 - 50.8463ms
+2021-07-30 08:35:00.130 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:00.234 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 103.9788ms
+2021-07-30 08:35:00.284 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui.css - -
+2021-07-30 08:35:00.284 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2021-07-30 08:35:00.284 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2021-07-30 08:35:00.298 -03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-07-30 08:35:00.298 -03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-07-30 08:35:00.303 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 200 336841 application/javascript 19.4546ms
+2021-07-30 08:35:00.303 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui.css - - - 200 143410 text/css 19.8715ms
+2021-07-30 08:35:00.307 -03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-07-30 08:35:00.309 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 200 1097461 application/javascript 24.7219ms
+2021-07-30 08:35:00.524 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/favicon-16x16.png - -
+2021-07-30 08:35:00.525 -03:00 [INF] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+2021-07-30 08:35:00.525 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/favicon-16x16.png - - - 200 665 image/png 1.2095ms
+2021-07-30 08:35:00.603 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-30 08:35:00.706 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 103.3277ms
+2021-07-30 08:35:13.159 -03:00 [INF] Application is shutting down...
+2021-07-30 08:35:26.914 -03:00 [INF] Application is starting
+2021-07-30 08:35:27.318 -03:00 [INF] Now listening on: https://localhost:5001
+2021-07-30 08:35:27.321 -03:00 [INF] Now listening on: http://localhost:5000
+2021-07-30 08:35:27.321 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-30 08:35:27.321 -03:00 [INF] Hosting environment: Development
+2021-07-30 08:35:27.322 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-07-30 08:35:28.492 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:28.573 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 85.7826ms
+2021-07-30 08:35:30.126 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:30.128 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 1.3099ms
+2021-07-30 08:35:32.318 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:32.320 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 1.8061ms
+2021-07-30 08:35:33.096 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:33.097 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 0.7021ms
+2021-07-30 08:35:34.254 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:34.254 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 0.3985ms
+2021-07-30 08:35:35.397 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:35.397 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 0.8583ms
+2021-07-30 08:35:41.659 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:41.660 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 0.9244ms
+2021-07-30 08:35:42.254 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:35:42.255 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 404 0 - 0.7529ms
+2021-07-30 08:35:43.907 -03:00 [INF] Application is shutting down...
+2021-07-30 08:36:04.244 -03:00 [INF] Application is starting
+2021-07-30 08:36:04.667 -03:00 [INF] Now listening on: https://localhost:5001
+2021-07-30 08:36:04.670 -03:00 [INF] Now listening on: http://localhost:5000
+2021-07-30 08:36:04.670 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-30 08:36:04.671 -03:00 [INF] Hosting environment: Development
+2021-07-30 08:36:04.671 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-07-30 08:36:47.130 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:36:47.231 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 105.4203ms
+2021-07-30 08:36:47.293 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2021-07-30 08:36:47.293 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2021-07-30 08:36:47.293 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui.css - -
+2021-07-30 08:36:47.302 -03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-07-30 08:36:47.302 -03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-07-30 08:36:47.302 -03:00 [INF] The file /swagger-ui.css was not modified
+2021-07-30 08:36:47.303 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 304 - application/javascript 9.8179ms
+2021-07-30 08:36:47.303 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 304 - application/javascript 9.8160ms
+2021-07-30 08:36:47.303 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui.css - - - 304 - text/css 9.4702ms
+2021-07-30 08:36:47.637 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-30 08:36:47.708 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 71.6002ms
+2021-07-30 08:43:22.924 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:43:22.924 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 0.9179ms
+2021-07-30 08:43:23.233 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-30 08:43:23.236 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.1678ms
+2021-07-30 08:43:47.847 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-07-30 08:43:47.866 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:43:47.880 -03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelsApi.WeatherForecast] Get() on controller HotelsApi.Controllers.WeatherForecastController (HotelsApi).
+2021-07-30 08:43:47.887 -03:00 [INF] Executing ObjectResult, writing value of type 'HotelsApi.WeatherForecast[]'.
+2021-07-30 08:43:47.900 -03:00 [INF] Executed action HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi) in 15.5931ms
+2021-07-30 08:43:47.902 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:43:47.902 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 55.2267ms
+2021-07-30 08:48:51.498 -03:00 [INF] Application is shutting down...
+2021-07-30 08:48:55.447 -03:00 [INF] Application is starting
+2021-07-30 08:48:55.838 -03:00 [INF] Now listening on: https://localhost:5001
+2021-07-30 08:48:55.841 -03:00 [INF] Now listening on: http://localhost:5000
+2021-07-30 08:48:55.841 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-07-30 08:48:55.841 -03:00 [INF] Hosting environment: Development
+2021-07-30 08:48:55.841 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-07-30 08:49:13.444 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:49:13.551 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 112.9483ms
+2021-07-30 08:49:13.602 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2021-07-30 08:49:13.602 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2021-07-30 08:49:13.611 -03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-07-30 08:49:13.611 -03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-07-30 08:49:13.612 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 304 - application/javascript 9.8673ms
+2021-07-30 08:49:13.612 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 304 - application/javascript 9.6317ms
+2021-07-30 08:49:13.915 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-30 08:49:14.013 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 97.4713ms
+2021-07-30 08:49:17.489 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-07-30 08:49:17.531 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:49:17.560 -03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelsApi.WeatherForecast] Get() on controller HotelsApi.Controllers.WeatherForecastController (HotelsApi).
+2021-07-30 08:49:17.562 -03:00 [INF] Acessed Weather Forecast
+2021-07-30 08:49:17.570 -03:00 [INF] Executing ObjectResult, writing value of type 'HotelsApi.WeatherForecast[]'.
+2021-07-30 08:49:17.587 -03:00 [INF] Executed action HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi) in 22.3574ms
+2021-07-30 08:49:17.589 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:49:17.589 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 100.9264ms
+2021-07-30 08:49:30.979 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:49:30.980 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 1.4418ms
+2021-07-30 08:49:30.999 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2021-07-30 08:49:31.000 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2021-07-30 08:49:31.000 -03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-07-30 08:49:31.000 -03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-07-30 08:49:31.000 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 304 - application/javascript 0.7622ms
+2021-07-30 08:49:31.001 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 304 - application/javascript 1.4535ms
+2021-07-30 08:49:31.156 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-30 08:49:31.158 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.1468ms
+2021-07-30 08:49:37.392 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-07-30 08:49:37.392 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:49:37.393 -03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelsApi.WeatherForecast] Get() on controller HotelsApi.Controllers.WeatherForecastController (HotelsApi).
+2021-07-30 08:49:37.394 -03:00 [INF] Acessed Weather Forecast
+2021-07-30 08:49:37.394 -03:00 [INF] Executing ObjectResult, writing value of type 'HotelsApi.WeatherForecast[]'.
+2021-07-30 08:49:37.395 -03:00 [INF] Executed action HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi) in 1.0976ms
+2021-07-30 08:49:37.395 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:49:37.395 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.5927ms
+2021-07-30 08:49:48.303 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-07-30 08:49:48.305 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 1.2526ms
+2021-07-30 08:49:48.337 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2021-07-30 08:49:48.338 -03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-07-30 08:49:48.338 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 304 - application/javascript 1.2591ms
+2021-07-30 08:49:48.339 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2021-07-30 08:49:48.339 -03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-07-30 08:49:48.340 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 304 - application/javascript 0.4209ms
+2021-07-30 08:49:48.522 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-07-30 08:49:48.523 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1.5615ms
+2021-07-30 08:49:55.093 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/WeatherForecast - -
+2021-07-30 08:49:55.093 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:49:55.094 -03:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[HotelsApi.WeatherForecast] Get() on controller HotelsApi.Controllers.WeatherForecastController (HotelsApi).
+2021-07-30 08:49:55.094 -03:00 [INF] Acessed Weather Forecast
+2021-07-30 08:49:55.094 -03:00 [INF] Executing ObjectResult, writing value of type 'HotelsApi.WeatherForecast[]'.
+2021-07-30 08:49:55.095 -03:00 [INF] Executed action HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi) in 1.0924ms
+2021-07-30 08:49:55.096 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.WeatherForecastController.Get (HotelsApi)'
+2021-07-30 08:49:55.096 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/WeatherForecast - - - 200 - application/json;+charset=utf-8 3.5537ms
