@@ -11,6 +11,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Microsoft.EntityFrameworkCore;
+using HotelsApi.Data;
 
 namespace HotelsApi
 {
@@ -26,6 +28,14 @@ namespace HotelsApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+   
+            // services.AddDbContext<DatabaseContext>(options =>
+            //     options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"))
+            // );
+
+            services.AddEntityFrameworkNpgsql().AddDbContext<DatabaseContext>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))
+            );
 
             services.AddCors( o => {
                 o.AddPolicy("CorsPolicy", builder =>
