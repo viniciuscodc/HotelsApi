@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using HotelsApi.Data;
+using HotelsApi.Configurations;
 
 namespace HotelsApi
 {
@@ -44,6 +45,8 @@ namespace HotelsApi
                     .AllowAnyHeader()
                 );
             });
+
+            services.AddAutoMapper(typeof(MapperInitializer));
 
             services.AddControllers();
             services.AddSwaggerGen();
