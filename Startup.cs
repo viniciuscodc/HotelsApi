@@ -14,6 +14,9 @@ using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
 using HotelsApi.Data;
 using HotelsApi.Configurations;
+using HotelsApi.Repository;
+using HotelsApi.IRepository;
+
 
 namespace HotelsApi
 {
@@ -47,8 +50,10 @@ namespace HotelsApi
             });
 
             services.AddAutoMapper(typeof(MapperInitializer));
+            services.AddTransient<IUnitOfWork, UnitOfWork>();
 
-            services.AddControllers();
+            services.AddControllers().AddNewtonsoftJson(op => 
+                op.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddSwaggerGen();
         }
 

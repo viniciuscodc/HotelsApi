@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace HotelsApi.IRepository
 {
-    public interface IUnityOfWork : IDisposable
+    public interface IUnitOfWork : IDisposable
     {
         IGenericRepository<Country> Countries { get; }
 

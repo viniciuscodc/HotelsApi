@@ -20,7 +20,8 @@ namespace HotelsApi.Repository
             _db = _context.Set<T>();
         }
         
-        public async Task<IList<T>> GetAll (Expression<Func<T, bool>> expression = null, Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, List<string> includes = null)
+        public async Task<IList<T>> GetAll (Expression<Func<T, bool>> expression = null, 
+        Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null, List<string> includes = null)
         {
             IQueryable<T> query = _db;
 

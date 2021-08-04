@@ -23,19 +23,20 @@ namespace HotelsApi
                 rollingInterval: RollingInterval.Day,
                 restrictedToMinimumLevel: LogEventLevel.Information
                 ).CreateLogger();
-                try
-                {
-                    Log.Information("Application is starting");
-                    CreateHostBuilder(args).Build().Run();
-                }
-                catch (Exception ex)
-                {
-                    Log.Fatal(ex, "Application failed to start");
-                    throw;
-                }
-                finally{
-                    Log.CloseAndFlush();
-                }
+            try
+            {
+                Log.Information("Application is starting");
+                CreateHostBuilder(args).Build().Run();
+            }
+
+            catch (Exception ex)
+            {
+                Log.Fatal(ex, "Application failed to start");
+                throw;
+            }
+            finally{
+                Log.CloseAndFlush();
+            }
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

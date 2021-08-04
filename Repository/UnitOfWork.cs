@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace HotelsApi.Repository
 {
-    public class UnityOfWork : IUnityOfWork
+    public class UnitOfWork : IUnitOfWork
     {
         private readonly DatabaseContext _context;
         private IGenericRepository<Country> _countries;
         private IGenericRepository<Hotel> _hotels;
 
-        public UnityOfWork(DatabaseContext context)
+        public UnitOfWork(DatabaseContext context)
         {
             _context = context;
         }
