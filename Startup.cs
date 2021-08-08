@@ -12,11 +12,12 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using HotelsApi.Data;
 using HotelsApi.Configurations;
 using HotelsApi.Repository;
 using HotelsApi.IRepository;
-
+using HotelsApi.Services;
 
 namespace HotelsApi
 {
@@ -41,6 +42,10 @@ namespace HotelsApi
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))
             );
 
+            services.AddAuthentication();
+            services.ConfigureIdentity();
+            services.ConfigureJwt(Configuration);
+
             services.AddCors( o => {
                 o.AddPolicy("CorsPolicy", builder =>
                     builder.AllowAnyOrigin()
@@ -51,6 +56,7 @@ namespace HotelsApi
 
             services.AddAutoMapper(typeof(MapperInitializer));
             services.AddTransient<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IAuthManager, AuthManager>();
 
             services.AddControllers().AddNewtonsoftJson(op => 
                 op.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
@@ -77,6 +83,7 @@ namespace HotelsApi
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

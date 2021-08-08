@@ -6,6 +6,7 @@ using Microsoft.Extensions.Logging;
 using HotelsApi.IRepository;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HotelsApi.Controllers
 {
@@ -41,6 +42,7 @@ namespace HotelsApi.Controllers
             }
         }
 
+        [Authorize]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetHotel(int id)
         {
