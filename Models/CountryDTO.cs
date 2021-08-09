@@ -25,4 +25,9 @@ namespace HotelsApi.Models
         public IList<HotelDTO> Hotels { get; set; }
     }
 
+    public class UpdateCountryDTO : CreateCountryDTO
+    {
+        public IList<CreateHotelDTO> Hotels{ get; set; }
+    }
+
 }

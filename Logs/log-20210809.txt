@@ -1,0 +1,181 @@
+2021-08-09 11:08:15.849 -03:00 [INF] Application is starting
+2021-08-09 11:08:16.435 -03:00 [INF] User profile is available. Using '/home/vinicius/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-08-09 11:08:16.792 -03:00 [INF] Now listening on: https://localhost:5001
+2021-08-09 11:08:16.792 -03:00 [INF] Now listening on: http://localhost:5000
+2021-08-09 11:08:16.792 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-09 11:08:16.792 -03:00 [INF] Hosting environment: Development
+2021-08-09 11:08:16.793 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-08-09 11:08:37.479 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Hotel - -
+2021-08-09 11:08:37.556 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:08:37.580 -03:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotelsApi.Controllers.HotelController (HotelsApi).
+2021-08-09 11:08:37.631 -03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2021-08-09 11:08:38.545 -03:00 [INF] Entity Framework Core 5.0.8 initialized 'DatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2021-08-09 11:08:39.133 -03:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+2021-08-09 11:08:39.197 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelsApi.Models.HotelDTO, HotelsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-09 11:08:39.328 -03:00 [INF] Executed action HotelsApi.Controllers.HotelController.GetHotels (HotelsApi) in 1744.2685ms
+2021-08-09 11:08:39.329 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:08:39.335 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/Hotel - - - 200 414 application/json;+charset=utf-8 1857.9636ms
+2021-08-09 11:09:42.716 -03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5001/api/Hotel application/json 132
+2021-08-09 11:09:42.718 -03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-08-09 11:09:42.719 -03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-08-09 11:09:42.719 -03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5001/api/Hotel application/json 132 - 405 0 - 3.2984ms
+2021-08-09 11:10:00.882 -03:00 [INF] Application is shutting down...
+2021-08-09 11:10:05.189 -03:00 [INF] Application is starting
+2021-08-09 11:10:05.458 -03:00 [INF] User profile is available. Using '/home/vinicius/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-08-09 11:10:05.714 -03:00 [INF] Now listening on: https://localhost:5001
+2021-08-09 11:10:05.715 -03:00 [INF] Now listening on: http://localhost:5000
+2021-08-09 11:10:05.715 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-09 11:10:05.715 -03:00 [INF] Hosting environment: Development
+2021-08-09 11:10:05.715 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-08-09 11:10:08.946 -03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5001/api/Hotel application/json 132
+2021-08-09 11:10:09.007 -03:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2021-08-09 11:10:09.007 -03:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2021-08-09 11:10:09.012 -03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5001/api/Hotel application/json 132 - 405 0 - 68.5730ms
+2021-08-09 11:10:41.139 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Hotel - -
+2021-08-09 11:10:41.155 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:10:41.181 -03:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotelsApi.Controllers.HotelController (HotelsApi).
+2021-08-09 11:10:41.227 -03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2021-08-09 11:10:42.082 -03:00 [INF] Entity Framework Core 5.0.8 initialized 'DatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2021-08-09 11:10:42.654 -03:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+2021-08-09 11:10:42.697 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelsApi.Models.HotelDTO, HotelsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-09 11:10:42.787 -03:00 [INF] Executed action HotelsApi.Controllers.HotelController.GetHotels (HotelsApi) in 1602.1421ms
+2021-08-09 11:10:42.788 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:10:42.791 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/Hotel - - - 200 414 application/json;+charset=utf-8 1652.6265ms
+2021-08-09 11:10:59.657 -03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5001/api/Hotel/10 application/json 132
+2021-08-09 11:10:59.673 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-08-09 11:10:59.682 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-08-09 11:10:59.682 -03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5001/api/Hotel/10 application/json 132 - 401 0 - 24.9511ms
+2021-08-09 11:13:31.635 -03:00 [INF] Application is shutting down...
+2021-08-09 11:13:35.573 -03:00 [INF] Application is starting
+2021-08-09 11:13:35.843 -03:00 [INF] User profile is available. Using '/home/vinicius/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-08-09 11:13:36.104 -03:00 [INF] Now listening on: https://localhost:5001
+2021-08-09 11:13:36.105 -03:00 [INF] Now listening on: http://localhost:5000
+2021-08-09 11:13:36.105 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-09 11:13:36.105 -03:00 [INF] Hosting environment: Development
+2021-08-09 11:13:36.105 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-08-09 11:13:46.802 -03:00 [INF] Request starting HTTP/1.1 PUT https://localhost:5001/api/Hotel/10 application/json 132
+2021-08-09 11:13:46.862 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.HotelController.UpdateHotel (HotelsApi)'
+2021-08-09 11:13:46.892 -03:00 [INF] Route matched with {action = "UpdateHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdateHotel(Int32, HotelsApi.Models.UpdateHotelDTO) on controller HotelsApi.Controllers.HotelController (HotelsApi).
+2021-08-09 11:13:46.937 -03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2021-08-09 11:13:47.890 -03:00 [INF] Entity Framework Core 5.0.8 initialized 'DatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2021-08-09 11:13:48.537 -03:00 [INF] Executed DbCommand (13ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+WHERE h."Id" = @__id_0
+LIMIT 1
+2021-08-09 11:13:48.712 -03:00 [INF] Executed DbCommand (7ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?', @p1='?' (DbType = Int32), @p2='?', @p3='?' (DbType = Double)], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Hotels" SET "Address" = @p0, "CountryId" = @p1, "Name" = @p2, "Rating" = @p3
+WHERE "Id" = @p4;
+2021-08-09 11:13:48.735 -03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-08-09 11:13:48.739 -03:00 [INF] Executed action HotelsApi.Controllers.HotelController.UpdateHotel (HotelsApi) in 1843.4662ms
+2021-08-09 11:13:48.740 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.HotelController.UpdateHotel (HotelsApi)'
+2021-08-09 11:13:48.747 -03:00 [INF] Request finished HTTP/1.1 PUT https://localhost:5001/api/Hotel/10 application/json 132 - 204 - - 1947.9031ms
+2021-08-09 11:13:59.769 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Hotel application/json 132
+2021-08-09 11:13:59.786 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:13:59.793 -03:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotelsApi.Controllers.HotelController (HotelsApi).
+2021-08-09 11:13:59.842 -03:00 [INF] Entity Framework Core 5.0.8 initialized 'DatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2021-08-09 11:13:59.854 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+2021-08-09 11:13:59.902 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelsApi.Models.HotelDTO, HotelsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-09 11:13:59.956 -03:00 [INF] Executed action HotelsApi.Controllers.HotelController.GetHotels (HotelsApi) in 161.819ms
+2021-08-09 11:13:59.956 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:13:59.956 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/Hotel application/json 132 - 200 412 application/json;+charset=utf-8 187.4484ms
+2021-08-09 11:14:19.564 -03:00 [INF] Application is shutting down...
+2021-08-09 11:49:07.770 -03:00 [INF] Application is starting
+2021-08-09 11:49:08.039 -03:00 [INF] User profile is available. Using '/home/vinicius/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-08-09 11:49:08.302 -03:00 [INF] Now listening on: https://localhost:5001
+2021-08-09 11:49:08.302 -03:00 [INF] Now listening on: http://localhost:5000
+2021-08-09 11:49:08.302 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-09 11:49:08.302 -03:00 [INF] Hosting environment: Development
+2021-08-09 11:49:08.302 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-08-09 11:49:11.864 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-08-09 11:49:11.955 -03:00 [ERR] An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "PUT api/Country/{id}" for actions - HotelsApi.Controllers.CountryController.UpdateCountry (HotelsApi),HotelsApi.Controllers.CountryController.DeleteCountry (HotelsApi). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-08-09 11:49:11.971 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 500 - text/plain 111.0146ms
+2021-08-09 11:49:54.100 -03:00 [INF] Application is shutting down...
+2021-08-09 11:49:58.523 -03:00 [INF] Application is starting
+2021-08-09 11:49:58.777 -03:00 [INF] User profile is available. Using '/home/vinicius/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-08-09 11:49:59.037 -03:00 [INF] Now listening on: https://localhost:5001
+2021-08-09 11:49:59.037 -03:00 [INF] Now listening on: http://localhost:5000
+2021-08-09 11:49:59.038 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-09 11:49:59.038 -03:00 [INF] Hosting environment: Development
+2021-08-09 11:49:59.038 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-08-09 11:50:02.958 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/index.html - -
+2021-08-09 11:50:03.064 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/index.html - - - 200 - text/html;charset=utf-8 109.1729ms
+2021-08-09 11:50:03.103 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - -
+2021-08-09 11:50:03.103 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - -
+2021-08-09 11:50:03.111 -03:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2021-08-09 11:50:03.111 -03:00 [INF] The file /swagger-ui-bundle.js was not modified
+2021-08-09 11:50:03.113 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-standalone-preset.js - - - 304 - application/javascript 10.0050ms
+2021-08-09 11:50:03.113 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger-ui-bundle.js - - - 304 - application/javascript 9.8032ms
+2021-08-09 11:50:03.250 -03:00 [INF] Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2021-08-09 11:50:03.383 -03:00 [INF] Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.2376ms
+2021-08-09 11:50:15.673 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Hotel application/json 132
+2021-08-09 11:50:15.718 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:50:15.739 -03:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotelsApi.Controllers.HotelController (HotelsApi).
+2021-08-09 11:50:15.785 -03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2021-08-09 11:50:16.670 -03:00 [INF] Entity Framework Core 5.0.8 initialized 'DatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2021-08-09 11:50:17.257 -03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+2021-08-09 11:50:17.328 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelsApi.Models.HotelDTO, HotelsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-09 11:50:17.422 -03:00 [INF] Executed action HotelsApi.Controllers.HotelController.GetHotels (HotelsApi) in 1678.4141ms
+2021-08-09 11:50:17.422 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:50:17.426 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/Hotel application/json 132 - 200 412 application/json;+charset=utf-8 1753.7277ms
+2021-08-09 11:50:32.436 -03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/api/Hotel/10 application/json 132
+2021-08-09 11:50:32.443 -03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2021-08-09 11:50:32.449 -03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2021-08-09 11:50:32.450 -03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/api/Hotel/10 application/json 132 - 401 0 - 14.5287ms
+2021-08-09 11:50:53.016 -03:00 [INF] Application is shutting down...
+2021-08-09 11:50:58.936 -03:00 [INF] Application is starting
+2021-08-09 11:50:59.203 -03:00 [INF] User profile is available. Using '/home/vinicius/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2021-08-09 11:50:59.464 -03:00 [INF] Now listening on: https://localhost:5001
+2021-08-09 11:50:59.464 -03:00 [INF] Now listening on: http://localhost:5000
+2021-08-09 11:50:59.465 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-08-09 11:50:59.465 -03:00 [INF] Hosting environment: Development
+2021-08-09 11:50:59.465 -03:00 [INF] Content root path: /home/vinicius/Documents/Projects/HotelsApi
+2021-08-09 11:51:02.490 -03:00 [INF] Request starting HTTP/1.1 DELETE https://localhost:5001/api/Hotel/10 application/json 132
+2021-08-09 11:51:02.549 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.HotelController.DeleteHotel (HotelsApi)'
+2021-08-09 11:51:02.579 -03:00 [INF] Route matched with {action = "DeleteHotel", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteHotel(Int32) on controller HotelsApi.Controllers.HotelController (HotelsApi).
+2021-08-09 11:51:02.624 -03:00 [WRN] 'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2021-08-09 11:51:03.478 -03:00 [INF] Entity Framework Core 5.0.8 initialized 'DatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2021-08-09 11:51:04.078 -03:00 [INF] Executed DbCommand (10ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+WHERE h."Id" = @__id_0
+LIMIT 1
+2021-08-09 11:51:04.137 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+WHERE h."Id" = @__p_0
+LIMIT 1
+2021-08-09 11:51:04.291 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+DELETE FROM "Hotels"
+WHERE "Id" = @p0;
+2021-08-09 11:51:04.331 -03:00 [INF] Executing HttpStatusCodeResult, setting HTTP status code 204
+2021-08-09 11:51:04.335 -03:00 [INF] Executed action HotelsApi.Controllers.HotelController.DeleteHotel (HotelsApi) in 1752.743ms
+2021-08-09 11:51:04.336 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.HotelController.DeleteHotel (HotelsApi)'
+2021-08-09 11:51:04.343 -03:00 [INF] Request finished HTTP/1.1 DELETE https://localhost:5001/api/Hotel/10 application/json 132 - 204 - - 1855.9309ms
+2021-08-09 11:51:11.338 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:5001/api/Hotel application/json 132
+2021-08-09 11:51:11.345 -03:00 [INF] Executing endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:51:11.348 -03:00 [INF] Route matched with {action = "GetHotels", controller = "Hotel"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetHotels() on controller HotelsApi.Controllers.HotelController (HotelsApi).
+2021-08-09 11:51:11.373 -03:00 [INF] Entity Framework Core 5.0.8 initialized 'DatabaseContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL' with options: None
+2021-08-09 11:51:11.383 -03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT h."Id", h."Address", h."CountryId", h."Name", h."Rating"
+FROM "Hotels" AS h
+2021-08-09 11:51:11.444 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[HotelsApi.Models.HotelDTO, HotelsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-08-09 11:51:11.547 -03:00 [INF] Executed action HotelsApi.Controllers.HotelController.GetHotels (HotelsApi) in 198.596ms
+2021-08-09 11:51:11.547 -03:00 [INF] Executed endpoint 'HotelsApi.Controllers.HotelController.GetHotels (HotelsApi)'
+2021-08-09 11:51:11.548 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:5001/api/Hotel application/json 132 - 200 296 application/json;+charset=utf-8 209.5423ms
