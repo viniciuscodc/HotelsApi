@@ -1,7 +1,7 @@
 using System;
+using System.Threading.Tasks;
 using HotelsApi.IRepository;
 using HotelsApi.Data;
-using System.Threading.Tasks;
 
 
 namespace HotelsApi.Repository

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 using HotelsApi.IRepository;
 using HotelsApi.Data;
-using Microsoft.EntityFrameworkCore;
 
 namespace HotelsApi.Repository
 {
@@ -42,7 +42,7 @@ namespace HotelsApi.Repository
             
             return await query.AsNoTracking().ToListAsync();
         }
-         public async Task<T> Get(Expression<Func<T, bool>> expression, List<string> includes = null)
+        public async Task<T> Get(Expression<Func<T, bool>> expression, List<string> includes = null)
          {
             IQueryable<T> query = _db;
             if (includes != null){
