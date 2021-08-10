@@ -83,3 +83,9 @@
 /home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll
 /home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll
 /home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/JetBrains.Annotations.dll
+/home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/X.PagedList.dll
+/home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/X.PagedList.Mvc.Core.dll
+/home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/Microsoft.AspNetCore.Mvc.Versioning.dll
+/home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/Marvin.Cache.Headers.dll
+/home/vinicius/Documents/Projects/HotelsApi/bin/Debug/net5.0/AspNetCoreRateLimit.dll

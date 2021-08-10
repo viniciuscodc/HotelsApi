@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
+using AspNetCoreRateLimit;  
 using HotelsApi.Data;
 using HotelsApi.Configurations;
 using HotelsApi.Repository;
@@ -33,6 +35,10 @@ namespace HotelsApi
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"))
             );
 
+            services.AddMemoryCache();
+
+            services.ConfigureHttpCacheHeaders();
+
             services.AddAuthentication();
             services.ConfigureIdentity();
             services.ConfigureJwt(Configuration);
@@ -49,10 +55,18 @@ namespace HotelsApi
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddScoped<IAuthManager, AuthManager>();
 
-            services.AddControllers().AddNewtonsoftJson(op => 
+            services.AddControllers(config => {
+                config.CacheProfiles.Add("120SecondsDuration", new CacheProfile
+                {
+                    Duration = 120
+                });
+            
+            }).AddNewtonsoftJson(op => 
                 op.SerializerSettings.ReferenceLoopHandling = 
                 Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddSwaggerGen();
+
+            services.ConfigureVersioning();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -69,9 +83,14 @@ namespace HotelsApi
                 c.RoutePrefix = string.Empty;
             });
         
+            app.ConfigureExceptionHandler();
+
             app.UseHttpsRedirection();
 
             app.UseCors("CorsPolicy");
+
+            app.UseResponseCaching();
+            app.UseHttpCacheHeaders();
 
             app.UseRouting();
 

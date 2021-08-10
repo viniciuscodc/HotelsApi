@@ -3,6 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using HotelsApi.Models;
+using X.PagedList;
+
+
 
 namespace HotelsApi.IRepository
 {
@@ -11,6 +15,11 @@ namespace HotelsApi.IRepository
         Task<IList<T>> GetAll(
             Expression<Func<T, bool>> expression = null,
             Func<IQueryable<T>, IOrderedQueryable<T>> orderBy = null,
+            List<string> includes = null
+        );
+        
+        Task<IPagedList<T>> GetPagedList(
+            RequestParams requestParams,
             List<string> includes = null
         );
 

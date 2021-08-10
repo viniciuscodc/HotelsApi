@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using HotelsApi.IRepository;
 using HotelsApi.Data;
+using HotelsApi.Models;
+using X.PagedList;
 
 namespace HotelsApi.Repository
 {
@@ -42,6 +44,23 @@ namespace HotelsApi.Repository
             
             return await query.AsNoTracking().ToListAsync();
         }
+
+        public async Task<IPagedList<T>> GetPagedList(RequestParams requestParams,
+            List<string> includes = null)
+        {
+            IQueryable<T> query = _db;
+
+            if (includes != null){
+                foreach (var includePropery in includes)
+                {
+                    query = query.Include(includePropery);
+                }
+            }
+            
+            return await query.AsNoTracking()
+                .ToPagedListAsync(requestParams.PageNumber, requestParams.PageSize);
+        }
+
         public async Task<T> Get(Expression<Func<T, bool>> expression, List<string> includes = null)
          {
             IQueryable<T> query = _db;
@@ -81,6 +100,5 @@ namespace HotelsApi.Repository
             _db.Attach(entity);
             _context.Entry(entity).State = EntityState.Modified;
         }
-        
     }
 }
