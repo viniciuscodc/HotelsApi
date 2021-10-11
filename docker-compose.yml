@@ -1,0 +1,27 @@
+version: '3'
+services:
+    aspnet:
+        build: .
+        ports:
+            - "5000:80"
+        depends_on:
+            - postgres
+    postgres:
+        image: postgres
+        volumes:
+            - ./migration.sql:/docker-entrypoint-initdb.d/migration.sql
+        environment:
+            - POSTGRES_USER=root
+            - POSTGRES_PASSWORD=root
+            - POSTGRES_DB=hotelAPI  
+        ports:
+            - "5432:5432"
+    pgadmin-compose:
+        image: dpage/pgadmin4
+        environment: 
+            PGADMIN_DEFAULT_EMAIL: "user@gmail.com"
+            PGADMIN_DEFAULT_PASSWORD: "user123!"
+        ports: 
+            - "16543:80"
+        depends_on: 
+            - postgres 
